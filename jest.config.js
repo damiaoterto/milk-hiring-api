@@ -9,6 +9,9 @@ const config = {
     "**/__tests__/**/*.[jt]s?(x)",
     "**/?(*.)+(spec|test).[tj]s?(x)"
   ],
+	transform: {
+    "^.+\\.js?$": "esbuild-jest"
+  },
   transformIgnorePatterns: [
     "/node_modules/",
     "\\.pnp\\.[^\\/]+$"
