@@ -1,4 +1,4 @@
 async function main() {
-	// TODO
+	console.log('Starting the project')
 }
 main()
