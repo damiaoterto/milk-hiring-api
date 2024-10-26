@@ -16,6 +16,9 @@ const config = {
     "/node_modules/",
     "\\.pnp\\.[^\\/]+$"
   ],
+	moduleNameMapper: {
+		"^#/(.+)$": "<rootDir>/src/$1"
+	}
 };
 
 module.exports = config;

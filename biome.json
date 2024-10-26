@@ -26,7 +26,6 @@
 		"formatter": {
 			"quoteStyle": "double",
 			"trailingCommas": "all",
-			"indentSize": 2,
 			"indentStyle":"tab",
 			"semicolons": "always"
 		}
