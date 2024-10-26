@@ -12,6 +12,20 @@
 						"port": 9229,
 						"restart": true,
 						"sourceMaps": true
-        }
-    ]
+				},
+				{
+					"type": "node",
+					"request": "launch",
+					"name": "Test Debug",
+					"runtimeExecutable": "pnpm",
+					"runtimeArgs": [
+						"test:debug"
+					],
+					"skipFiles": [
+								"<node_internals>/**"
+					],
+					"console": "integratedTerminal"
+				}
+    ],
+		"compounds": []
 }
