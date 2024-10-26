@@ -2,5 +2,5 @@
   "watch": ["src"],
   "ext": ".js,.json",
   "ignore": ["node_modules/**/*"],
-  "exec": "node -r esbuild-register --inspect src/main.js"
+  "exec": "babel-node ./src/main.js"
 }

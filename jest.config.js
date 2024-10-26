@@ -10,7 +10,7 @@ const config = {
     "**/?(*.)+(spec|test).[tj]s?(x)"
   ],
 	transform: {
-    "^.+\\.js?$": "esbuild-jest"
+    "^.+\\.js?$": "babel-jest"
   },
   transformIgnorePatterns: [
     "/node_modules/",
